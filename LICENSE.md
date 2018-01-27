@@ -13,7 +13,7 @@ What's a gazetteer? It's a list of places, each with a stable, unique identifier
 Crediting Woeplanet is recommended and linking back to this [License](https://github.com/woeplanet-data/woeplanet-data/blob/master/README.md) is required.
 
 ```
-Data from Woeplanet. <a href="https://github.com/woeplanet-data/woeplanet-data/blob/master/README.md">License</a>
+Data from Woeplanet. <a href="https://github.com/woeplanet-data/woeplanet-data/blob/master/LICENSE.md">License</a>
 ```
 
 The Woeplanet dataset is both original work and a modification of existing open data. Some of those open data projects **do** require attribution. We have listed all sources below.
