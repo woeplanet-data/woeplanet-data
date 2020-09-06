@@ -26,6 +26,17 @@ In some cases, even with splitting repos by placetype and country, the repo is g
 woeplanet-zip-gb-a
 ```
 
+At the time of writing there are _2317_ repos in the `whosonfirst-data` organisation. So a helpful [manifest.json](https://github.com/woeplanet-data/woeplanet-data/blob/master/manifest.json) file which details each repo and is, in turn, based on each repo's `meta/meta.json` might be useful.
+
+## Country Codes
+
+The country code in the WoePlanet repo naming convention follows the [ISO 3166-1 Alpha 2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) standard, but it's worth drawing attention to ...
+
+* `XS` is used for disputed territories or regions
+* `ZZ` is used for unknown or invalid territories or regions, which often means (shrug emoji) the world is a complicated place at times
+
+These last two differ from the [convention](https://whosonfirst.org/docs/placetypes/) used by Who's On First and should probably be aligned at some point. But not today.
+
 ## Who's On First?
 
 Any similarity between Woeplanet and [Who's On First](https://www.whosonfirst.org/) is entirely coincidental. Inspiration for Who's On First came from Geoplanet, Yahoo's (now defunct) global gazetter and inspiration for Woeplanet came from Who's On First, especially on repository naming conventions and GeoJSON properties.
